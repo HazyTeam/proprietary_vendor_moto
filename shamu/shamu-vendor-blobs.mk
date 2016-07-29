@@ -45,12 +45,9 @@ PRODUCT_COPY_FILES += \
     vendor/moto/shamu/proprietary/etc/Speaker_cal.acdb:system/etc/Speaker_cal.acdb \
     vendor/moto/shamu/proprietary/etc/fmas_eq.dat:system/etc/fmas_eq.dat \
     vendor/moto/shamu/proprietary/lib/hw/audio.motvr.default.so:system/lib/hw/audio.motvr.default.so \
-    vendor/moto/shamu/proprietary/lib/hw/audio.primary.msm8084.so:system/lib/hw/audio.primary.msm8084.so \
     vendor/moto/shamu/proprietary/lib/hw/sound_trigger.primary.shamu.so:system/lib/hw/sound_trigger.primary.shamu.so \
-    vendor/moto/shamu/proprietary/lib/libaudioroute.so:system/lib/libaudioroute.so \
     vendor/moto/shamu/proprietary/lib/libflacencoder.so:system/lib/libflacencoder.so \
     vendor/moto/shamu/proprietary/lib/libmotaudioutils.so:system/lib/libmotaudioutils.so \
-    vendor/moto/shamu/proprietary/lib/libtinycompress.so:system/lib/libtinycompress.so \
     vendor/moto/shamu/proprietary/lib/soundfx/libfmas.so:system/lib/soundfx/libfmas.so \
     vendor/moto/shamu/proprietary/lib/soundfx/libqcomvisualizer.so:system/lib/soundfx/libqcomvisualizer.so \
     vendor/moto/shamu/proprietary/lib/soundfx/libqcomvoiceprocessing.so:system/lib/soundfx/libqcomvoiceprocessing.so \
@@ -122,7 +119,6 @@ PRODUCT_COPY_FILES += \
     vendor/moto/shamu/proprietary/vendor/moto/audiomonitor/sensory/svsid_triggerogn_frfr_1_0.raw:system/vendor/moto/audiomonitor/sensory/svsid_triggerogn_frfr_1_0.raw \
     vendor/moto/shamu/proprietary/vendor/moto/audiomonitor/sensory/svsid_triggerogn_ptbr_2_1.raw:system/vendor/moto/audiomonitor/sensory/svsid_triggerogn_ptbr_2_1.raw \
     vendor/moto/shamu/proprietary/bin/mm-qcamera-daemon:system/bin/mm-qcamera-daemon \
-    vendor/moto/shamu/proprietary/lib/libmm-qcamera.so:system/lib/libmm-qcamera.so \
     vendor/moto/shamu/proprietary/vendor/lib/libactuator_lc898122_camcorder.so:system/vendor/lib/libactuator_lc898122_camcorder.so \
     vendor/moto/shamu/proprietary/vendor/lib/libactuator_lc898122_camera.so:system/vendor/lib/libactuator_lc898122_camera.so \
     vendor/moto/shamu/proprietary/vendor/lib/libactuator_lc898122.so:system/vendor/lib/libactuator_lc898122.so \
@@ -369,7 +365,6 @@ PRODUCT_COPY_FILES += \
     vendor/moto/shamu/proprietary/bin/tcmd_mini:system/bin/tcmd_mini \
     vendor/moto/shamu/proprietary/lib/libdetectmodem.so:system/lib/libdetectmodem.so \
     vendor/moto/shamu/proprietary/lib/libmdmdetect.so:system/lib/libmdmdetect.so \
-    vendor/moto/shamu/proprietary/lib/librmnetctl.so:system/lib/librmnetctl.so \
     vendor/moto/shamu/proprietary/vendor/lib/libconfigdb.so:system/vendor/lib/libconfigdb.so \
     vendor/moto/shamu/proprietary/vendor/lib/libmdmcutback.so:system/vendor/lib/libmdmcutback.so \
     vendor/moto/shamu/proprietary/vendor/lib/libnetmgr.so:system/vendor/lib/libnetmgr.so \
@@ -424,5 +419,4 @@ PRODUCT_COPY_FILES += \
     vendor/moto/shamu/proprietary/vendor/firmware/aonvr1.bin:system/vendor/firmware/aonvr1.bin \
     vendor/moto/shamu/proprietary/vendor/firmware/aonvr2.bin:system/vendor/firmware/aonvr2.bin \
     vendor/moto/shamu/proprietary/vendor/firmware/bcm20795_firmware.ncd:system/vendor/firmware/bcm20795_firmware.ncd \
-    vendor/moto/shamu/proprietary/vendor/firmware/bcm4354A2.hcd:system/vendor/firmware/bcm4354A2.hcd \
     vendor/moto/shamu/proprietary/xbin/wlutil:system/xbin/wlutil
